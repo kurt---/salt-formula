@@ -27,7 +27,6 @@ salt:
     pillar_roots:
       base:
         - /srv/pillar
-    module_config:
 
 salt_formulas:
   git_opts:
