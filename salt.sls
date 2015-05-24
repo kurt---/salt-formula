@@ -31,8 +31,8 @@ salt:
 
 salt_formulas:
   git_opts:
-     default:
-        baseurl: https://github.com/kurt---
+    default:
+      baseurl: https://github.com/kurt---
       basedir: /srv/formulas
       update: False
       options:
