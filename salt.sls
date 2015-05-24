@@ -6,7 +6,7 @@ salt:
       - roots
     gitfs_remotes:
       - git://github.com/kurt---/salt-formula.git:
-        - base: develop
+        - base: master
     file_roots:
       base:
         - /srv/salt
@@ -20,7 +20,7 @@ salt:
       - roots
     gitfs_remotes:
       - git://github.com/kurt---/salt-formula.git:
-        - base: develop
+        - base: master
     file_roots:
       base:
         - /srv/salt
@@ -45,7 +45,7 @@ salt_formulas:
       basedir: /srv/formulas/stage
       update: True
       options:
-        rev: develop
+        rev: master
   basedir_opts:
     makedirs: True
     user: root

@@ -2,5 +2,5 @@ base:
   'salt':
     - salt.master
     - salt.minion
-    - salt.gitfs.dulwich
+    - salt.gitfs.gitpython
     - salt-formulas
