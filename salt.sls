@@ -40,7 +40,7 @@ salt_formulas:
       basedir: /srv/formulas/dev
       update: True
       options:
-        rev: develop
+        rev: master
     stage:
       basedir: /srv/formulas/stage
       update: True
