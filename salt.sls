@@ -34,19 +34,9 @@ salt_formulas:
     default:
       baseurl: https://github.com/kurt---
       basedir: /srv/formulas
-      update: False
-      options:
-        rev: master
-    dev:
-      basedir: /srv/formulas/dev
       update: True
       options:
-        rev: master
-    stage:
-      basedir: /srv/formulas/stage
-      update: True
-      options:
-        rev: master
+        rev: stage
   basedir_opts:
     makedirs: True
     user: root
@@ -55,6 +45,5 @@ salt_formulas:
   list:
     base:
       - salt-formula
-    dev:
-      - salt-formula
       - users-formula
+      - fail2ban-formula
