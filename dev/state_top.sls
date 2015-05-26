@@ -3,4 +3,4 @@ base:
     - salt.master
     - salt.minion
     - salt.gitfs.gitpython
-    - salt-formulas
+    - salt.formulas
