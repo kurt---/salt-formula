@@ -1,6 +1,7 @@
 salt:
   install_packages: True
   master:
+    gitfs_provider: gitpython
     fileserver_backend:
       - git
       - roots
