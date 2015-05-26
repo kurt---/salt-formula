@@ -47,3 +47,9 @@ salt_formulas:
       - salt-formula
       - users-formula
       - fail2ban-formula
+      - nginx-formula
+      - php-formula
+      - msql-formula
+      - jenkins-formula
+      - oracle-java-formula
+      - magnolia-formula
